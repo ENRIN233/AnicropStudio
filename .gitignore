@@ -1,0 +1,20 @@
+# 1. 编译构建废料与成品大包
+build/
+dist/
+photoai.zip
+*.zip
+*.7z
+*.rar
+*.exe
+
+# 2. 运行时缓存与崩溃日志
+.cache/
+__pycache__/
+*.pyc
+
+# 3. ONNX 神经网络权重（由代码首次运行时自动多源下载）
+assets/*.onnx
+
+# 4. 私人打包笔记与本地临时标注图
+打包.txt
+debug_annotated.jpg
